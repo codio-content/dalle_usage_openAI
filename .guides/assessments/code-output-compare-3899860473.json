@@ -1,0 +1,55 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-3899860473",
+	"source": {
+		"name": "Chaining Generation",
+		"showName": false,
+		"instructions": "When ready to submit your code, please click the button below. ",
+		"command": "python exercTest.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "```python\nimport os\nimport openai\nimport requests\nimport secret\n\nopenai.api_key=secret.api_key\n\n\n\n# Generate and save the images\ndef chain(prompts):\n  for i, prompt in enumerate(prompts):\n    response = openai.Image.create(\n      prompt=prompt,\n      n=1,\n      size=\"256x256\"\n    )\n\n    # Get the image URL from the response\n    image_url = response['data'][0]['url']\n\n    # Download and save the image\n    img_data = requests.get(image_url).content\n    with open(f\"test{i+1}.jpg\", 'wb') as handler:\n        handler.write(img_data)\n```\nImport necessary modules: `os`, `openai`, `requests` are Python libraries used in the script, and secret is a local Python file containing sensitive data like API keys.\n\n`openai.api_key=secret.api_key`: This line is used to set the API key required to authenticate requests to the OpenAI API. The API key is fetched from a secret Python file, which is not included in the script.\n\nThe chain function is defined to accept a list of prompts. For each prompt, an image is created using the `openai.Image.create()` method. This method makes a call to OpenAI's API using the provided prompt, and requests one image of size \"256x256\".\n\n`image_url = response['data'][0]['url']`: Once the response is received from the API, the URL of the generated image is extracted from the response.\n\n`img_data = requests.get(image_url).content`: This line is used to download the image data from the extracted URL using the requests library.\n\nThe script then opens a file in write-binary mode (wb) and writes the image data into the file. The image file is named \"test1.jpg\", \"test2.jpg\", etc., depending on the current iteration in the loop.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Test passed!\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"exerc.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "exerc.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

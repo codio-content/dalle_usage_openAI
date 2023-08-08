@@ -1,0 +1,68 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1700830208",
+	"source": {
+		"name": "descriptive prompts for image generation",
+		"showName": true,
+		"instructions": "What is the advantage of using descriptive prompts for image generation?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5d56987e-d276-2ad8-0b53-9e1b42619ba1",
+				"correct": false,
+				"answer": "The AI generates images with a larger file size."
+			},
+			{
+				"_id": "a27ceed9-cc65-b5f6-5a7b-870c5f825a93",
+				"correct": false,
+				"answer": "The AI generates images with higher resolution."
+			},
+			{
+				"_id": "68dc2cfb-3d21-e65b-7fb9-612e19b8bb09",
+				"correct": true,
+				"answer": "The AI generates images that better match the desired outcome."
+			},
+			{
+				"_id": "e74d9622-5999-d2b7-be91-67caee71bdcd",
+				"correct": false,
+				"answer": "The AI generates images using only a single color palette."
+			}
+		],
+		"guidance": " The AI generates images that better match the desired outcome.\n\n riting descriptive prompts helps the AI to better understand the context of the task, allowing it to create more accurate and creative responses. The more precise the explanation, the greater the probability of achieving the desired outcome for you or your end user.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py",
+				"image_name.jpg"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "image_name.jpg"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

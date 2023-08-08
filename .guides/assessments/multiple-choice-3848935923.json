@@ -1,0 +1,70 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "dff6db64-bc2f-3dc0-f0d5-883e4b52aab7",
+				"answer": "Creative response",
+				"correct": false
+			},
+			{
+				"_id": "65e162d0-f6b0-8921-b374-613bb2ed8b52",
+				"answer": "Deterministic response",
+				"correct": true
+			},
+			{
+				"_id": "d5a037f4-91b1-486d-410d-abc11d1ecea8",
+				"answer": "Neutral response",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "5",
+		"guidance": "The code sample would produce a more deterministic response. While the `top_p` keyword value would produce a wide array of possible answers, the `temperature` value limits the result a rather deterministic result.",
+		"incorrectPoints": 0,
+		"instructions": "**Assume the following code snippet.**\n\n```python-hide-clipboard\nresponse = openai.Completion.create(\n  model=\"text-davinci-002\",\n  prompt=prompts,\n  top_p=1,\n  temperature=0.1,\n  max_tokens=50)\n```\n\n**What kind of result would you expect this code to produce?**",
+		"isRandomized": true,
+		"learningObjectives": "SWBAT evaluate a code snippet to see if the result is creative or deterministic",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"setting.py"
+			],
+			"opened": [
+				{
+					"content": "setting.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Settings"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Prompt Design"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "settings",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-3848935923",
+	"type": "multiple-choice"
+}

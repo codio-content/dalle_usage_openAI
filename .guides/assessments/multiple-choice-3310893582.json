@@ -1,0 +1,63 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3310893582",
+	"source": {
+		"name": "multiplexing I/O",
+		"showName": false,
+		"instructions": "In Python, what library allows you to write single-threaded concurrent code using coroutines, multiplexing I/O access over sockets and other resources, running network clients and servers, and other related primitives?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "70379e69-d5a1-ee8c-91d6-0189ac5fa440",
+				"correct": false,
+				"answer": "multiprocessing"
+			},
+			{
+				"_id": "0836c3f5-75ed-ba3e-1393-8e507409a89c",
+				"correct": false,
+				"answer": "multithreading"
+			},
+			{
+				"_id": "b31213b9-4975-0295-f5f5-665c2b2d2fbf",
+				"correct": true,
+				"answer": "asyncio"
+			},
+			{
+				"_id": "d7a4a222-0253-f20c-1902-2dcd376e2c83",
+				"correct": false,
+				"answer": "concurrent.futures"
+			}
+		],
+		"guidance": "Python's `asyncio` library is designed to write single-threaded concurrent code using coroutines, multiplexing I/O access over sockets and other resources. It's used for asynchronous I/O and allows you to structure your code in a more straightforward way, while also making more efficient use of system resources.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"sync.py",
+				"async.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "sync.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

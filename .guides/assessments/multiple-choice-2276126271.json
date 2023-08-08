@@ -1,0 +1,75 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "022f7aa5-29e4-0020-962d-e3205c74bddc",
+				"answer": "Large language models like GPT-3 can perform a large number of tasks.",
+				"correct": true
+			},
+			{
+				"_id": "7f2d9585-9b0d-23ad-efb3-02275c9dbb3b",
+				"answer": "Large language models like GPT-3 can only perform a handful of tasks.",
+				"correct": false
+			},
+			{
+				"_id": "902fc4b9-9a27-2973-e9c9-f00fc0b1d213",
+				"answer": "Better results are more actionable.",
+				"correct": true
+			},
+			{
+				"_id": "cbe60c34-ae98-488c-76c6-bb27d7764e10",
+				"answer": "Large language models are prone to produce bad results.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "2",
+		"guidance": "The correct answers are:\n\n* Large language models like GPT-3 can perform a large number of tasks.\n* Better results are more actionable.\n\nImagine you are using GPT-3 to power a chat bot to help your customers resolve a problem. It is not important that the chat bot can respond to random questions. The goal is for customers to find a solution to their problem. Do not focus on all the possible responses, they do not help your customer. Instead, focus on the quality of the response so that the customer gets the solution they need.",
+		"incorrectPoints": 0,
+		"instructions": "**Why is it better to focus on quality of results instead of the capabilities of GPT-3? Select all that apply.**",
+		"isRandomized": true,
+		"learningObjectives": "SWBAT recognize the importance of focusing on results quality",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"box.txt"
+			],
+			"opened": [
+				{
+					"content": "box.txt",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Large Language Models"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Prompt Design"
+				}
+			]
+		},
+		"multipleResponse": true,
+		"name": "refining results",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-2276126271",
+	"type": "multiple-choice"
+}

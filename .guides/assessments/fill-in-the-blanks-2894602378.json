@@ -1,0 +1,70 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "2",
+		"distractors": "",
+		"guidance": "The correct answers are:\n\n* The item below is an example of the **tell principle**\n```markdown-hide-clipboard\ngive me a list of the 5 players who hit the most homeruns\n```\nThis is the tell principle because we are giving a specific prompt and not demonstrating what the results should look like.\n* The item below is an example of the **show principle**\n```markdown-hide-clipboard\ngive me a list of 10 colors\n* Color 1: red\n* Color 2: blue\n```\nThis is the show principle because we have a rather generic prompt but provide a specific format for the output.\n* The item below is an example of the **show and tell principles**\n```markdown-hide-clipboard\ngive me a list of the 10 most popular pizza toppings.\n1) Cheese\n2) Pepperoni\n```\nThis both the show and tell principles because we have a specific prompt and a specific format for the output.",
+		"instructions": "**Label the following items as examples of the show principle, the tell principle, or both.**",
+		"learningObjectives": "SWBAT classify prompts as using the show or tell principles",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"box.txt"
+			],
+			"opened": [
+				{
+					"content": "box.txt",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				},
+				{
+					"name": "Content",
+					"value": "Show and Tell"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Prompt Design"
+				}
+			]
+		},
+		"name": "show and tell",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "* The item below is an example of the \u003c\u003c\u003ctell principle\u003e\u003e\u003e\n```markdown\ngive me a list of the 5 players who hit the most homeruns\n```\n* The item below is an example of the \u003c\u003c\u003cshow principle\u003e\u003e\u003e\n```markdown\ngive me a list of 10 colors\n* Color 1: red\n* Color 2: blue\n```\n* The item below is an example of the \u003c\u003c\u003cshow and tell principles\u003e\u003e\u003e\n```markdown\ngive me a list of the 10 most popular pizza toppings.\n1) Cheese\n2) Pepperoni\n```\n",
+		"tokens": {
+			"blank": [
+				"tell principle",
+				"show principle",
+				"show and tell principles"
+			],
+			"regexPositions": [],
+			"text": [
+				"* The item below is an example of the ",
+				0,
+				"\n```markdown\ngive me a list of the 5 players who hit the most homeruns\n```\n* The item below is an example of the ",
+				0,
+				"\n```markdown\ngive me a list of 10 colors\n* Color 1: red\n* Color 2: blue\n```\n* The item below is an example of the ",
+				0,
+				"\n```markdown\ngive me a list of the 10 most popular pizza toppings.\n1) Cheese\n2) Pepperoni\n```\n"
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-2894602378",
+	"type": "fill-in-the-blanks"
+}

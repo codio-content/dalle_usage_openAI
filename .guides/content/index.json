@@ -1,0 +1,23 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Learning-Objectives-ea75",
+		"Chaining-Multiple-API-Calls-to-Create-a-Sequence-of-Images-with-DALL-E-d8f1",
+		"Exceptions-in-DALL-E-75cb",
+		"Async-vs-Sync-0304",
+		"Async-Example-1e6d",
+		"Coding-Exercise-9f1c"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "Additional DALL-E Usage",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

@@ -1,0 +1,68 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3723583746",
+	"source": {
+		"name": " `enumerate()` function",
+		"showName": false,
+		"instructions": "In the provided code, what is the purpose of using the `enumerate()` function?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e2c4c1cf-1f32-584b-c9a7-5a6067800296",
+				"correct": false,
+				"answer": "To download the images from the URLs"
+			},
+			{
+				"_id": "a0845a31-c383-c61d-2152-3df993257341",
+				"correct": true,
+				"answer": "To loop through the list of image URLs and create separate files for each image"
+			},
+			{
+				"_id": "bb1bf583-b846-dd28-af24-018ebcdb84f7",
+				"correct": false,
+				"answer": " To count the total number of images generated"
+			},
+			{
+				"_id": "6c6d68e3-403f-f6a0-8519-d5dda9a21c55",
+				"correct": false,
+				"answer": "To generate image URLs from OpenAI DALL-E"
+			}
+		],
+		"guidance": "The enumerate() function is used in the code to loop through the list of image URLs, keeping track of the current index and image URL. This allows the code to create separate files for each image by changing the file name dynamically with the index.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py",
+				"image_name1.jpg"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "image_name1.jpg"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

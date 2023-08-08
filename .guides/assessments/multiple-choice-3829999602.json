@@ -1,0 +1,75 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3829999602",
+	"source": {
+		"name": "classification design",
+		"showName": false,
+		"instructions": "**Assume the following prompt.**\n\n```markdown\ncontinent categorize\n* Portugal\n* Ethiopia\n* Taiwan\n* Canada\n```\n\n**In what ways can the prompt be improved for the purposes of classification? Select all that apply.**",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "deb63f48-73fd-dc35-d1c7-0677afedae41",
+				"correct": true,
+				"answer": "Create a prompt with plain language"
+			},
+			{
+				"_id": "d1d7bfdb-96c8-40ce-f235-3c2c43d5d04f",
+				"correct": true,
+				"answer": "Set an example for the expected output"
+			},
+			{
+				"_id": "bbf2c429-e3f7-7979-c1be-fdd2f8e65d6c",
+				"correct": false,
+				"answer": "Change the value for `temperature` and `top_p`"
+			},
+			{
+				"_id": "12d913b8-b7ab-cf93-a82e-8607845a27e0",
+				"correct": false,
+				"answer": "Fix the typos"
+			}
+		],
+		"guidance": "The correct answers are:\n\n* Create a prompt with plain language\n* Set an example for the expected output\n\nIt would be better to use a prompt that is more clearly written. For example, \"Categorize each country by continent\". Remove as much guess work as you can for the model. Adding examples for the output will also help GPT-3 to classify the data. For example, \"Canada is in North America\".\n\nIn this question, we are working only with the prompt. We do not have the ability to adjust `temperature` or `top_p`. Also, there are no typos.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Classification Design"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Prompt Design"
+				}
+			],
+			"files": [
+				"box.txt"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "box.txt"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT improve a prompt for classification"
+	}
+}

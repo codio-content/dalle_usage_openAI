@@ -1,0 +1,25 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"_path": "#terminal: ",
+			"_commands": [
+				{
+					"type": "terminal",
+					"content": ""
+				}
+			],
+			"_panel": 1,
+			"_action": "open"
+		}
+	],
+	"id": "20dd1103-9975-83d6-affe-bca93074439f",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Part 1. Box Creation",
+	"type": "page",
+	"layout": ""
+}

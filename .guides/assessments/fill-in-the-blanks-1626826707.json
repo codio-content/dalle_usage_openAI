@@ -1,0 +1,60 @@
+{
+	"type": "fill-in-the-blanks",
+	"taskId": "fill-in-the-blanks-1626826707",
+	"source": {
+		"name": "Try and Except",
+		"showName": false,
+		"instructions": "Fill in the blanks:",
+		"showValues": false,
+		"text": " In Python, a <<<try>>> block contains the code that could potentially raise an exception. If an exception is raised in this block, the execution immediately moves to the <<<except>>> block that handles that specific exception.",
+		"distractors": "",
+		"guidance": "In Python, we use `try` and `except` blocks to catch and handle exceptions. The try block contains the code that might raise an exception. If an exception does occur, the rest of the try block is skipped and execution moves to the except block, which contains code that handles the exception.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			],
+			"files": [
+				"multGen.py",
+				"image_name-copy.jpg"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "multGen.py"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "image_name-copy.jpg"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"tokens": {
+			"blank": [
+				"try",
+				"except"
+			],
+			"text": [
+				" In Python, a ",
+				0,
+				" block contains the code that could potentially raise an exception. If an exception is raised in this block, the execution immediately moves to the ",
+				0,
+				" block that handles that specific exception."
+			],
+			"regexPositions": []
+		}
+	}
+}

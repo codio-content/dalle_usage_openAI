@@ -1,0 +1,17 @@
+{
+	"id": "d8f1c3b7-da04-3706-a71e-3274cd967dd3",
+	"title": "Chaining Multiple API Calls to Create a Sequence of Images with DALL-E",
+	"files": [
+		{
+			"path": "multGen.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "3-cell"
+}

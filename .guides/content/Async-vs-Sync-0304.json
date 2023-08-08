@@ -1,0 +1,21 @@
+{
+	"id": "03046d1b-7764-a1d2-359b-9f6782ec6704",
+	"title": "Async vs Sync",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "sync.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

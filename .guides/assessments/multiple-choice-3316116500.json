@@ -1,0 +1,70 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "62752224-5b22-d84c-60ed-bf7b34243c78",
+				"answer": "The model will make its best guess when it is unsure.",
+				"correct": true
+			},
+			{
+				"_id": "e467364e-b79f-d1b6-5128-d0d456bd03fa",
+				"answer": "The model can only provide a result if the prompt is precise.",
+				"correct": false
+			},
+			{
+				"_id": "1a18f72e-663d-b0b2-6db5-e5c20b12667a",
+				"answer": "The model will return an error message if the prompt is not clear.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "2",
+		"guidance": "Large language models can take vague instructions and provide surprisingly accurate results. However, there are limits to what these models can do. When there are multiple possible outcomes, the model will choose one which may not correspond with your expectations. The better the prompt, the better the results.",
+		"incorrectPoints": 0,
+		"instructions": "**Select the ++best++ reason why we should be clear about the instructions in the prompt.**",
+		"isRandomized": true,
+		"learningObjectives": "SWBAT explain why clear prompts lead to better results",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"box.txt"
+			],
+			"opened": [
+				{
+					"content": "box.txt",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Provide Quality Data"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Prompt Design"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "provide quality data",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-3316116500",
+	"type": "multiple-choice"
+}

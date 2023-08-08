@@ -1,0 +1,68 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3012950608",
+	"source": {
+		"name": "Asynchronous programming",
+		"showName": false,
+		"instructions": " What is the primary advantage of using asynchronous programming when dealing with multiple API calls?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "aaf34ccb-8929-2a10-a940-4ddea9c62bf8",
+				"correct": false,
+				"answer": " It reduces the complexity of the code."
+			},
+			{
+				"_id": "7ded0e4f-3097-644d-0459-2a59662b63bc",
+				"correct": true,
+				"answer": "It allows for concurrent execution, which can significantly speed up the total execution time."
+			},
+			{
+				"_id": "f15b01a0-1e6c-13b3-b92a-04064ca71dfb",
+				"correct": false,
+				"answer": "It prevents any errors from occurring during API calls."
+			},
+			{
+				"_id": "994ac3c5-ecf3-17a3-fe14-5723975c07d0",
+				"correct": false,
+				"answer": "It automatically handles any rate-limiting issues with the API."
+			}
+		],
+		"guidance": "It allows for concurrent execution, which can significantly speed up the total execution time. Asynchronous programming allows an application to start an operation, such as an API call, and then move on to another task without waiting for the first operation to complete. When the operation completes, the application is notified and can handle the result.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"sync.py",
+				"async.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "sync.py"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "async.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

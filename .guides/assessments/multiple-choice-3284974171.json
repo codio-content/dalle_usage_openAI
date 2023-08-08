@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3284974171",
+	"source": {
+		"name": "Chaining calls",
+		"showName": false,
+		"instructions": " What is one benefit of chaining API calls when using OpenAI's DALL-E API?\n\n",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "7f00d479-fdd9-065d-b488-7acf79eb59ce",
+				"correct": false,
+				"answer": "It allows us to generate a single image."
+			},
+			{
+				"_id": "0a88944d-70b1-b5aa-5f75-bcfdf3a73f2c",
+				"correct": true,
+				"answer": "It allows us to create a sequence of images that progressively change."
+			},
+			{
+				"_id": "a43f0075-53d5-6fe2-6b70-b6bb9da490d5",
+				"correct": false,
+				"answer": " It reduces the complexity of the outputs."
+			},
+			{
+				"_id": "07238771-b0d1-1dbe-0eb5-cd17700bef35",
+				"correct": false,
+				"answer": "It limits the creativity of the outputs."
+			}
+		],
+		"guidance": "Chaining API calls allows us to generate a sequence of images based on a set of prompts. This can be used for storytelling, progressive image generation, and exploring different variations of the same concept.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"multGen.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "multGen.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

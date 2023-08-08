@@ -1,0 +1,27 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "imageGen.py",
+			"action": "open"
+		},
+		{
+			"path": "image_name1.jpg",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"id": "7ba05cf8-ef9a-f294-a4ba-0dee5b91822c",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Generating and Saving Multiple Images ",
+	"type": "page"
+}

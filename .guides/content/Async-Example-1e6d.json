@@ -1,0 +1,22 @@
+{
+	"id": "1e6d716b-4877-1276-bad5-fb5b5882447e",
+	"title": "Async Example",
+	"files": [
+		{
+			"path": "sync.py",
+			"action": "open"
+		},
+		{
+			"path": "async.py",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "3-cell"
+}
